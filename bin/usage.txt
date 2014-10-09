@@ -1,0 +1,11 @@
+usage: dupsh {OPTIONS} CMD1 CMD2
+
+  Spawn CMD1 and CMD2, piping the stdout of CMD1 to the stdin of CMD2,
+  and the stdout of CMD2 to the stdin of CMD1.
+ 
+  stderr from both processes is forwarded to the dupsh stderr.
+
+OPTIONS are:
+
+  -h --help  Show this message.
+
