@@ -1,0 +1,39 @@
+{
+  "name": "dupsh",
+  "version": "1.0.0",
+  "description": "pipe together two shell commands full duplex",
+  "bin": "bin/cmd.js",
+  "dependencies": {
+    "minimist": "~1.1.0",
+    "shell-quote": "~1.4.2"
+  },
+  "devDependencies": {
+    "concat-stream": "^1.4.6",
+    "hash-exchange": "^1.0.0",
+    "shasum": "^1.0.0",
+    "tape": "^3.0.0",
+    "through2": "^1.1.1"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/substack/dupsh.git"
+  },
+  "homepage": "https://github.com/substack/dupsh",
+  "keywords": [
+    "duplex",
+    "shell",
+    "spawn",
+    "process",
+    "stdin",
+    "stdout"
+  ],
+  "author": {
+    "name": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net"
+  },
+  "license": "MIT"
+}
