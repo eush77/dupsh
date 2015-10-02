@@ -1,5 +1,10 @@
 # dupsh
 
+> The major weakness of pipes is that they are unidirectional. It's not possible for a pipeline component to pass control information back up the pipe other than by terminating.
+> [*<div align=right>TAOUP</div>*][taoup]
+
+[taoup]: http://catb.org/~esr/writings/taoup/html/ch07s02.html#plumbing
+
 pipe together two shell commands full duplex
 
 Given two shell commands `a` and `b`, pipe the output of `a` to the input of `b`
